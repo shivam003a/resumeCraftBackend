@@ -33,7 +33,7 @@ app.use(cookieParser({
 
 app.get("/", (req, res)=>{
     res.status(200).json({
-        body: `${process.env.DB_URL}`
+        body: `hello`
     })
 })
 

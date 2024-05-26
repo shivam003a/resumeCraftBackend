@@ -59,9 +59,6 @@ exports.signin = async(req, res) => {
         }
 
         const isEmailExist = await User.findOne({ email });
-        return res.status(200).json({
-            email : isEmailExist
-        })
 
         if(!isEmailExist){
             return res.status(400).json({

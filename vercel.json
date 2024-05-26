@@ -11,10 +11,5 @@
       "src": "/api/(.*)",
       "dest": "/index.js"
     }
-  ],
-  "env": {
-    "DB_URL": "@db_url",
-    "JWT_SECRET": "@jwt_secret",
-    "CORS_ORIGIN": "@cors_origin"
-  }
+  ]
 }
